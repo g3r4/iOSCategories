@@ -14,6 +14,7 @@
 		56BB925D24BA227500C4530D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BB925C24BA227500C4530D /* Preview Assets.xcassets */; };
 		56BB926024BA227500C4530D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BB925E24BA227500C4530D /* LaunchScreen.storyboard */; };
 		56BB926B24BA227600C4530D /* NewsPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB926A24BA227600C4530D /* NewsPrototypeTests.swift */; };
+		56BB927624BA242100C4530D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BB927524BA242100C4530D /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		56BB926624BA227500C4530D /* NewsPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BB926A24BA227600C4530D /* NewsPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPrototypeTests.swift; sourceTree = "<group>"; };
 		56BB926C24BA227600C4530D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BB927524BA242100C4530D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				56BB925E24BA227500C4530D /* LaunchScreen.storyboard */,
 				56BB926124BA227500C4530D /* Info.plist */,
 				56BB925B24BA227500C4530D /* Preview Content */,
+				56BB927524BA242100C4530D /* Categories.swift */,
 			);
 			path = NewsPrototype;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BB925424BA227400C4530D /* AppDelegate.swift in Sources */,
+				56BB927624BA242100C4530D /* Categories.swift in Sources */,
 				56BB925624BA227400C4530D /* SceneDelegate.swift in Sources */,
 				56BB925824BA227400C4530D /* ContentView.swift in Sources */,
 			);
